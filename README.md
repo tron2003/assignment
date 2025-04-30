@@ -24,17 +24,29 @@ The Logistic Regression achieved an accuracy of 62% on the data.
 # Installation
 1. Clone the repository to your local machine:
 ```
-https://github.com/SannketNikam/Emotion-Detection-in-Text.git
+https://github.com/tron2003/assignment.git
 ```
 
-2. Install the 'requirements.txt':
+2. Make virtual enviroment:
+```
+python -m venv venv
+
+```
+
+3. Activate the Virtual Environment :
+```
+.\venv\Scripts\activate
+
+```
+
+4.Install Dependencies:
 ```
 pip install -r requirements.txt
-```
 
-3. To run this project :
+
+```
+5. Run the Streamlit App :
 ```
 streamlit run app.py
-```
 
-4. It'll automatically open the Streamlit app in your default browser.
+```
